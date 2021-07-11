@@ -1154,7 +1154,7 @@ $(document).ready(function() {
 
 		// ----------------------------------------
 		// MORE JS
-		var dataJsDownload = fetchOrDownloadAndStore(db, Module.locateFile('https://rawcdn.githack.com/pavelrk97/sMALL-RUNNER/319ba9f5afe08ee8bd194acaefa9db2d8a3b7773/Runner-HTML5-Shipping.data.js'));
+		var dataJsDownload = fetchOrDownloadAndStore(db, Module.locateFile('https://rawcdn.githack.com/pavelrk97/sMALL-RUNNER/536583caac379c5bcf54fccda30ce3fcae2f6e49/Runner-HTML5-Shipping.data.js'));
 		var utilityJsDownload = fetchOrDownloadAndStore(db, Module.locateFile('https://rawcdn.githack.com/pavelrk97/sMALL-RUNNER/319ba9f5afe08ee8bd194acaefa9db2d8a3b7773/Utility.js')).then(addScriptToDom);
 		var dataDownload =
 /* // The following code would download and store the .data file as a Blob, which should be more efficient than loading an ArrayBuffer. However that seems to be buggy, so avoid it for now.
